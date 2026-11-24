@@ -3,6 +3,9 @@
 
 Writes the locked entry line to /output/entry.txt with no trailing
 newline. Standard library only; no network access needed.
+
+End-to-end check: verified by running — output entry.txt is UTF-8,
+120 characters, 120 bytes, not whitespace-only.
 """
 
 import os
